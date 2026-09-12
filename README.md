@@ -14,7 +14,7 @@ Salve, eu sou o **Pedro Foggiato**. Vim do desenvolvimento Full Stack e agora es
 
 Estou montando essa base aos poucos: Linux, redes, cloud, IAM, AWS, segurança defensiva, entender como um ataque funciona na prática. Já tenho experiência construindo produto, fundei a Uzzo Solutions, então já venho com alguma bagagem, só troquei de foco.
 
-Documento aqui os labs, scripts e testes que vou fazendo, mais por costume do que por plano. Erro bastante ainda, e tá tudo bem.
+Documento aqui os labs, scripts e testes que vou fazendo, mais por costume do que por plano. Erro bastante ainda, e está tudo bem.
 
 ```bash
 $ cat focus.txt
@@ -44,7 +44,7 @@ Meus projetos ficam nessa zona entre segurança, Linux, automação, API, IA e i
 
 Um deles é o **Jarvis Bridge**: comecei tentando montar um assistente de voz local e fui mexendo com automação, integração de IA, comportamento de sistema, um tanto de jeito diferente de dar errado no caminho. Longe de ser um JARVIS de verdade, mas rendeu bastante aprendizado.
 
-Tá tudo nos repositórios, se quiser ver melhor como funciona.
+Está tudo nos repositórios, se quiser ver melhor como funciona.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
