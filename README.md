@@ -10,11 +10,11 @@
 
 ## `01 // sobre`
 
-Salve, eu sou o **Pedro Foggiato**, estudante de DevSecOps construindo sobre uma base Full Stack.
+Salve, eu sou o **Pedro Foggiato**. Vim do desenvolvimento Full Stack e agora tô migrando pra DevSecOps.
 
-Estou construindo, aos poucos, minha base de conhecimento em DevSecOps: Linux, redes, cloud, IAM, AWS, segurança defensiva e entendimento de como ataques realmente funcionam. Minha experiência construindo produtos web — inclusive como fundador da Uzzo Solutions — é a base prática dessa transição. Gosto de ir a fundo pra entender um problema ou sistema, é isso que me ensina a usá-lo e a defendê-lo.
+Tô montando essa base aos poucos: Linux, redes, cloud, IAM, AWS, segurança defensiva, entender como um ataque funciona na prática antes de tentar defender qualquer coisa. Já tenho experiência construindo produto — fundei a Uzzo Solutions — então não é começar do zero, é mudar de foco.
 
-De cada lab, script ou experimento eu costumo sair documentando, geralmente porque me perguntei "beleza, mas será que eu consigo fazer isso funcionar de verdade?"
+O que sobra dos labs, scripts e testes eu documento aqui, mais por costume do que por plano. Não é lista de tecnologia que eu domino, é registro do que eu ainda tô aprendendo (e errando bastante).
 
 ```bash
 $ cat focus.txt
@@ -28,26 +28,23 @@ automation
 ai_integrations
 ```
 
-Ultimamente tenho puxado mais para **IAM e Cloud Security**, mas nada disso se sustenta sem uma base sólida em sistemas e redes.
-
-Isso aqui, por enquanto, está longe de ser uma lista de tecnologias que eu domino. É mais um diário do que estou **aprendendo, testando e, aos poucos, ACERTANDO**. Errar também é bem notório por aqui, rs.
+Ultimamente tenho focado mais em IAM e Cloud Security, mas nada disso segura sem uma base decente de sistemas e rede.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 ## `02 // como_aprendo`
 
-Teoria sozinha não gruda em mim, preciso de um lugar para colocar esse conhecimento na massa.
+Teoria sozinha não fica. Preciso testar pra entender de verdade.
 
 ```text
-entender → testar → quebrar algo → descobrir o porquê
-       → reconstruir direito → documentar o que importou
+entender → testar → quebrar → descobrir o porquê → refazer certo → documentar
 ```
 
-Meus projetos costumam viver na sobreposição entre `security · linux · automation · APIs · AI · interfaces · infrastructure`. O que realmente me prende é fazer peças diferentes conversarem de forma confiável, não mais uma demo isolada que só roda na minha máquina.
+Meus projetos ficam nessa zona entre segurança, Linux, automação, API, IA e infraestrutura. O que me interessa é fazer peça conversar com peça, não montar mais uma demo isolada que só roda na minha máquina.
 
-Um dos exemplos é o **Jarvis Bridge**: começou como um "deixa eu tentar construir um assistente de voz local" e foi silenciosamente virando um playground de interação por voz, automação local, APIs, integrações de IA, comportamento de sistema, tratamento de eventos e confiabilidade, basicamente todo jeito possível de um humano e uma máquina se entenderem mal. Não finjo que construí o JARVIS do Homem de Ferro, a parte interessante é tudo que eu tive que aprender só de tentar.
+Um deles é o **Jarvis Bridge**: comecei tentando montar um assistente de voz local e fui parar em automação, integração de IA, comportamento de sistema e um monte de jeito diferente de dar errado. Não é o JARVIS de verdade, mas aprendi bastante tentando.
 
-Dá uma olhada nos meus repositórios: você vai ver esse loop se repetindo, com certeza.
+Dá uma olhada nos repositórios, esse padrão se repete.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -66,9 +63,9 @@ Dá uma olhada nos meus repositórios: você vai ver esse loop se repetindo, com
 
 ## `04 // fora_do_terminal`
 
-Tecnologia consome a maior parte da minha tela. O que sobra vai geralmente para **estética digital, identidade visual, música, Marvel, animes e qualquer ideia aleatória que pareça valer a pena virar projeto**.
+Fora da tela: estética digital, identidade visual, música, Marvel, anime e qualquer ideia boba que acaba virando projeto.
 
-O que provavelmente explica por que até meus projetos técnicos raramente ficam puramente funcionais: não resisto e sempre acabo caprichando na aparência.
+Por isso até projeto técnico meu raramente fica só funcional, sempre acabo caprichando na aparência.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
