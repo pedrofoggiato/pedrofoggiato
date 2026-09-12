@@ -10,11 +10,11 @@
 
 ## `01 // sobre`
 
-Salve, eu sou o **Pedro Foggiato**. Vim do desenvolvimento Full Stack e agora tô migrando pra DevSecOps.
+Salve, eu sou o **Pedro Foggiato**. Vim do desenvolvimento Full Stack e agora estou migrando pra DevSecOps.
 
-Tô montando essa base aos poucos: Linux, redes, cloud, IAM, AWS, segurança defensiva, entender como um ataque funciona na prática antes de tentar defender qualquer coisa. Já tenho experiência construindo produto — fundei a Uzzo Solutions — então não é começar do zero, é mudar de foco.
+Estou montando essa base aos poucos: Linux, redes, cloud, IAM, AWS, segurança defensiva, entender como um ataque funciona na prática antes de tentar defender qualquer coisa. Já tenho experiência construindo produto, fundei a Uzzo Solutions, então não é começar do zero, é mudar de foco.
 
-O que sobra dos labs, scripts e testes eu documento aqui, mais por costume do que por plano. Não é lista de tecnologia que eu domino, é registro do que eu ainda tô aprendendo (e errando bastante).
+O que sobra dos labs, scripts e testes eu documento aqui, mais por costume do que por plano. Não é lista de tecnologia que eu domino, é registro do que eu ainda estou aprendendo (e errando bastante).
 
 ```bash
 $ cat focus.txt
