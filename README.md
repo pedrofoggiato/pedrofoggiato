@@ -12,9 +12,9 @@
 
 Salve, eu sou o **Pedro Foggiato**. Vim do desenvolvimento Full Stack e agora estou migrando pra DevSecOps.
 
-Estou montando essa base aos poucos: Linux, redes, cloud, IAM, AWS, segurança defensiva, entender como um ataque funciona na prática antes de tentar defender qualquer coisa. Já tenho experiência construindo produto, fundei a Uzzo Solutions, então não é começar do zero, é mudar de foco.
+Estou montando essa base aos poucos: Linux, redes, cloud, IAM, AWS, segurança defensiva, entender como um ataque funciona na prática. Já tenho experiência construindo produto, fundei a Uzzo Solutions, então já venho com alguma bagagem, só troquei de foco.
 
-O que sobra dos labs, scripts e testes eu documento aqui, mais por costume do que por plano. Não é lista de tecnologia que eu domino, é registro do que eu ainda estou aprendendo (e errando bastante).
+Documento aqui os labs, scripts e testes que vou fazendo, mais por costume do que por plano. Erro bastante ainda, e tá tudo bem.
 
 ```bash
 $ cat focus.txt
@@ -34,17 +34,17 @@ Ultimamente tenho focado mais em IAM e Cloud Security, mas nada disso segura sem
 
 ## `02 // como_aprendo`
 
-Teoria sozinha não fica. Preciso testar pra entender de verdade.
+Teoria sozinha não fica muito comigo, preciso testar as coisas pra entender de verdade.
 
 ```text
 entender → testar → quebrar → descobrir o porquê → refazer certo → documentar
 ```
 
-Meus projetos ficam nessa zona entre segurança, Linux, automação, API, IA e infraestrutura. O que me interessa é fazer peça conversar com peça, não montar mais uma demo isolada que só roda na minha máquina.
+Meus projetos ficam nessa zona entre segurança, Linux, automação, API, IA e infraestrutura. Gosto mais de fazer peça conversar com peça do que montar mais uma demo isolada rodando só na minha máquina.
 
-Um deles é o **Jarvis Bridge**: comecei tentando montar um assistente de voz local e fui parar em automação, integração de IA, comportamento de sistema e um monte de jeito diferente de dar errado. Não é o JARVIS de verdade, mas aprendi bastante tentando.
+Um deles é o **Jarvis Bridge**: comecei tentando montar um assistente de voz local e fui mexendo com automação, integração de IA, comportamento de sistema, um tanto de jeito diferente de dar errado no caminho. Longe de ser um JARVIS de verdade, mas rendeu bastante aprendizado.
 
-Dá uma olhada nos repositórios, esse padrão se repete.
+Tá tudo nos repositórios, se quiser ver melhor como funciona.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
@@ -65,7 +65,7 @@ Dá uma olhada nos repositórios, esse padrão se repete.
 
 Fora da tela: estética digital, identidade visual, música, Marvel, anime e qualquer ideia boba que acaba virando projeto.
 
-Por isso até projeto técnico meu raramente fica só funcional, sempre acabo caprichando na aparência.
+Isso vaza um pouco pros projetos técnicos também, geralmente acabo caprichando na aparência deles.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
