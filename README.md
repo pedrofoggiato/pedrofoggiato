@@ -1,8 +1,6 @@
 <div align="center">
 
-<sub>`lang:` **EN** · [PT-BR](./README.pt-br.md)</sub>
-
-<img src="./assets/typing-signal.svg" alt="Animated terminal signal" width="100%" />
+<img src="./assets/typing-signal.svg" alt="Sinal de terminal animado" width="100%" />
 
 `fogg@github:~$ whoami`
 
@@ -10,13 +8,13 @@
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## `01 // about`
+## `01 // sobre`
 
-Hey, I'm **Pedro Foggiato**, a DevSecOps student building from full-stack foundations.
+Salve, eu sou o **Pedro Foggiato**, estudante de DevSecOps construindo sobre uma base Full Stack.
 
-I'm building, piece by piece, my base of knowledge in DevSecOps: Linux, networking, cloud, IAM, AWS, defensive security, and understanding how attacks actually work. My experience building web products — including as founder of Uzzo Solutions — is the practical base for this transition. I like digging deep to understand a problem or a system, that's what teaches me how to use it and how to defend it.
+Estou construindo, aos poucos, minha base de conhecimento em DevSecOps: Linux, redes, cloud, IAM, AWS, segurança defensiva e entendimento de como ataques realmente funcionam. Minha experiência construindo produtos web — inclusive como fundador da Uzzo Solutions — é a base prática dessa transição. Gosto de ir a fundo pra entender um problema ou sistema, é isso que me ensina a usá-lo e a defendê-lo.
 
-Every lab, script, or experiment I try usually ends up documented, mostly because at some point I asked myself "okay, but can I actually make this work for real?"
+De cada lab, script ou experimento eu costumo sair documentando, geralmente porque me perguntei "beleza, mas será que eu consigo fazer isso funcionar de verdade?"
 
 ```bash
 $ cat focus.txt
@@ -30,30 +28,30 @@ automation
 ai_integrations
 ```
 
-Lately I've been leaning more toward **IAM and Cloud Security**, but none of that holds up without a solid base in systems and networking.
+Ultimamente tenho puxado mais para **IAM e Cloud Security**, mas nada disso se sustenta sem uma base sólida em sistemas e redes.
 
-For now, this is far from a list of technologies I've mastered. It's more of a logbook of what I'm **learning, testing, and slowly getting RIGHT**. Getting things wrong is pretty notorious around here too, lol.
+Isso aqui, por enquanto, está longe de ser uma lista de tecnologias que eu domino. É mais um diário do que estou **aprendendo, testando e, aos poucos, ACERTANDO**. Errar também é bem notório por aqui, rs.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## `02 // how_i_learn`
+## `02 // como_aprendo`
 
-Theory alone doesn't stick with me, I need somewhere to put it into practice.
+Teoria sozinha não gruda em mim, preciso de um lugar para colocar esse conhecimento na massa.
 
 ```text
-understand → test → break something → figure out why
-       → rebuild it properly → document what mattered
+entender → testar → quebrar algo → descobrir o porquê
+       → reconstruir direito → documentar o que importou
 ```
 
-My projects tend to live in the overlap between `security · linux · automation · APIs · AI · interfaces · infrastructure`. What actually hooks me is getting different pieces to talk to each other reliably, not another isolated demo that only runs on my machine.
+Meus projetos costumam viver na sobreposição entre `security · linux · automation · APIs · AI · interfaces · infrastructure`. O que realmente me prende é fazer peças diferentes conversarem de forma confiável, não mais uma demo isolada que só roda na minha máquina.
 
-One example is **Jarvis Bridge**: it started as "let me try building a local voice assistant" and quietly turned into a playground for voice interaction, local automation, APIs, AI integrations, system behavior, event handling and reliability, basically every possible way for a human and a machine to misunderstand each other. I'm not pretending I built Iron Man's JARVIS, the interesting part is everything I had to learn just from trying.
+Um dos exemplos é o **Jarvis Bridge**: começou como um "deixa eu tentar construir um assistente de voz local" e foi silenciosamente virando um playground de interação por voz, automação local, APIs, integrações de IA, comportamento de sistema, tratamento de eventos e confiabilidade, basicamente todo jeito possível de um humano e uma máquina se entenderem mal. Não finjo que construí o JARVIS do Homem de Ferro, a parte interessante é tudo que eu tive que aprender só de tentar.
 
-Take a look at my repos: you'll see that loop repeating itself, for sure.
+Dá uma olhada nos meus repositórios: você vai ver esse loop se repetindo, com certeza.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## `03 // stack_in_progress`
+## `03 // stack_em_progresso`
 
 <div align="center">
 <img src="https://img.shields.io/badge/Linux-0D0D0D?style=for-the-badge&logo=linux&logoColor=E5E5E5" alt="Linux" />
@@ -66,16 +64,16 @@ Take a look at my repos: you'll see that loop repeating itself, for sure.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
-## `04 // outside_the_terminal`
+## `04 // fora_do_terminal`
 
-Tech eats up most of my screen time. What's left usually goes to **digital aesthetics, visual identity, music, Marvel, anime, and whatever random idea seems worth turning into a project**.
+Tecnologia consome a maior parte da minha tela. O que sobra vai geralmente para **estética digital, identidade visual, música, Marvel, animes e qualquer ideia aleatória que pareça valer a pena virar projeto**.
 
-Which is probably why even my technical projects rarely stay purely functional: I can't help dressing them up a little.
+O que provavelmente explica por que até meus projetos técnicos raramente ficam puramente funcionais: não resisto e sempre acabo caprichando na aparência.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
 <div align="center">
 
-<img src="./assets/signal-footer.svg" alt="Animated signature, FOGG, always under construction" width="100%" />
+<img src="./assets/signal-footer.svg" alt="Assinatura animada, FOGG, sempre em construção" width="100%" />
 
 </div>
