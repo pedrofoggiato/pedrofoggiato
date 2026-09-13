@@ -58,19 +58,3 @@ Está tudo nos repositórios, se quiser ver melhor como funciona.
 <img src="https://img.shields.io/badge/Cloud-0D0D0D?style=for-the-badge&logo=icloud&logoColor=E5E5E5" alt="Cloud" />
 <img src="https://img.shields.io/badge/IAM-0D0D0D?style=for-the-badge&logo=auth0&logoColor=E5E5E5" alt="IAM" />
 </div>
-
-<img src="./assets/section-divider.svg" alt="" width="100%" />
-
-## `04 // fora_do_terminal`
-
-Fora da tela: estética digital, identidade visual, música, Marvel, anime e qualquer ideia boba que acaba virando projeto.
-
-Isso vaza um pouco pros projetos técnicos também, geralmente acabo caprichando na aparência deles.
-
-<img src="./assets/section-divider.svg" alt="" width="100%" />
-
-<div align="center">
-
-<img src="./assets/signal-footer.svg" alt="Assinatura animada, FOGG, sempre em construção" width="100%" />
-
-</div>
