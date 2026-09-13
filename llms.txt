@@ -1,0 +1,24 @@
+# Pedro Foggiato
+
+> Estudante de DevSecOps com base em desenvolvimento Full Stack, fundador da Uzzo Solutions.
+
+Pedro Foggiato (Pedro Luiz Foggiato) documenta em público sua transição de desenvolvimento Full Stack para DevSecOps: Linux, redes, cloud, IAM, segurança defensiva e automação. Antes disso, fundou a Uzzo Solutions, um estúdio de design e tecnologia.
+
+## Seções
+
+- [Direção](https://pedrofoggiato.com/#direcao): como ele encara DevSecOps, uma disciplina em construção, não um rótulo pronto
+- [A base](https://pedrofoggiato.com/#base): trajetória em desenvolvimento Full Stack e a fundação da Uzzo Solutions
+- [Em estudo](https://pedrofoggiato.com/#notas): áreas atuais de estudo — Linux & redes, Cloud & IAM, segurança defensiva, automação
+
+## Perfis
+
+- [GitHub](https://github.com/pedrofoggiato): projetos e laboratórios técnicos
+- [LinkedIn](https://www.linkedin.com/in/pedrofoggiato/): trajetória profissional
+- [Uzzo Solutions](https://www.uzzosolutions.com/): estúdio de design e tecnologia fundado por ele
+- [Página de fundador na Uzzo](https://www.uzzosolutions.com/pedro-foggiato): perfil detalhado como fundador
+- [X](https://x.com/pedrofoggiato)
+- [Bluesky](https://bsky.app/profile/pedrofoggiato.bsky.social)
+- [Reddit](https://www.reddit.com/user/pedrofoggiato/)
+- [Dev.to](https://dev.to/pedrofoggiato)
+- [Medium](https://medium.com/@pedrofoggiato)
+- [Facebook](https://www.facebook.com/pedroluizfoggiato/)
