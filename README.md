@@ -10,11 +10,7 @@
 
 ## `01 // sobre`
 
-Salve, eu sou o **Pedro Foggiato**. Vim do desenvolvimento Full Stack e agora estou migrando pra DevSecOps.
-
-Estou montando essa base aos poucos: Linux, redes, cloud, IAM, AWS, segurança defensiva, entender como um ataque funciona na prática. Já tenho experiência construindo produto, fundei a Uzzo Solutions, então já venho com alguma bagagem, só troquei de foco.
-
-Documento aqui os labs, scripts e testes que vou fazendo, mais por costume do que por plano. Erro bastante ainda, e está tudo bem.
+Bem-vindo ao meu perfil. Eu sou dev Full Stack com habilidade em Node, React e TypeScript, migrando pra área de DevSecOps. Depois dessa bagagem que construí sendo dev e me aprimorando, entendi que gosto mais de pensar em brechas nas coisas que faço, pra tampar todos os buracos. Quero entender onde um sistema quebra, como uma permissão mal atribuída pode virar uma porta pra uma entidade maliciosa, e tudo isso está sendo feito aos poucos: Linux, redes, cloud, IAM, AWS, entendo como um ataque funciona de verdade.
 
 ```bash
 $ cat focus.txt
@@ -34,17 +30,11 @@ Ultimamente tenho focado mais em IAM e Cloud Security, mas nada disso segura sem
 
 ## `02 // como_aprendo`
 
-Teoria sozinha não fica muito comigo, preciso testar as coisas pra entender de verdade.
+Eu aprendo e consolido tudo isso justamente nesse campo, na prática: primeiro entendo, testo o que entendi, quebro brechas no que ainda não sei, pergunto o porquê, refaço e documento.
 
-```text
-entender → testar → quebrar → descobrir o porquê → refazer certo → documentar
-```
+Um dos projetos que mais tenho aprendido nos últimos meses é o Jarvis. Comecei tentando montar um Jarvis tipo o Tony, claro que de forma modesta, e fui mexendo com automação, integração, API de IA, comportamentos, e sempre que eu fechava algo, encontrava brechas. É um aprendizado contínuo.
 
-Meus projetos ficam nessa zona entre segurança, Linux, automação, API, IA e infraestrutura. Gosto mais de fazer peça conversar com peça do que montar mais uma demo isolada rodando só na minha máquina.
-
-Um deles é o **Jarvis Bridge**: comecei tentando montar um assistente de voz local e fui mexendo com automação, integração de IA, comportamento de sistema, um tanto de jeito diferente de dar errado no caminho. Longe de ser um JARVIS de verdade, mas rendeu bastante aprendizado.
-
-Está tudo nos repositórios, se quiser ver melhor como funciona.
+Não documento tudo, e seria irresponsabilidade minha dizer que documento, mas tenho por costume documentar partes disso, seja scripts, testes, labs. Você pode ver essa biografia e documentação aqui no GitHub ou em pedrofoggiato.com.
 
 <img src="./assets/section-divider.svg" alt="" width="100%" />
 
