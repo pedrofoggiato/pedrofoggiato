@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#08090d" />
+    <title>Blog | Pedro Foggiato</title>
+    <meta name="description" content="Anotações e artigos de Pedro Foggiato sobre Linux, DevSecOps, cloud e segurança defensiva — laboratórios reais, documentados aos poucos." />
+    <link rel="canonical" href="https://pedrofoggiato.com/blog/" />
+    <link rel="icon" href="../assets/favicon.png?v=3" type="image/png" sizes="48x48" />
+    <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png?v=3" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Pedro Foggiato" />
+    <meta property="og:title" content="Blog | Pedro Foggiato" />
+    <meta property="og:description" content="Anotações e artigos sobre Linux, DevSecOps, cloud e segurança defensiva." />
+    <meta property="og:url" content="https://pedrofoggiato.com/blog/" />
+    <meta property="og:image" content="https://pedrofoggiato.com/assets/banner.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Blog | Pedro Foggiato" />
+    <meta name="twitter:image" content="https://pedrofoggiato.com/assets/banner.png" />
+    <link rel="stylesheet" href="../styles.css" />
+    <meta name="author" content="Pedro Foggiato" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","name":"Blog | Pedro Foggiato","url":"https://pedrofoggiato.com/blog/","author":{"@type":"Person","name":"Pedro Foggiato","url":"https://pedrofoggiato.com/"}}</script>
+  </head>
+  <body>
+    <header class="nav"><div class="nav-inner"><a class="wordmark" href="/" aria-label="Pedro Foggiato"><img src="../assets/mark-f.png" alt="Pedro Foggiato" class="mark" /></a><nav class="nav-links"><a href="/blog/" aria-current="page">Blog</a><a href="https://github.com/pedrofoggiato" target="_blank" rel="noopener noreferrer">GitHub</a></nav></div></header>
+    <main>
+      <section class="split" data-reveal><p class="eyebrow">BLOG</p><div><h2>Anotações e artigos.</h2><p>Registro público do que estou aprendendo em Linux, DevSecOps, cloud e segurança defensiva — laboratórios, erros e o que funciona na prática.</p></div></section>
+      <div class="blog-list" data-reveal>
+        <article class="post-card">
+          <p class="post-date">17 set 2026</p>
+          <h3><a href="/blog/uma-linha-errada-no-sudoers/">Uma linha errada no sudoers e virei root</a></h3>
+          <p>Talvez você já tenha escrito uma linha no sudoers que libera root pra qualquer usuário e nem saiba. Um laboratório real mostrando como uma regra de sudo mal configurada (NOPASSWD) abre uma porta que ninguém percebe.</p>
+          <a class="text-link" href="/blog/uma-linha-errada-no-sudoers/">Ler mais →</a>
+        </article>
+      </div>
+    </main>
+    <footer><span>© <span id="year"></span> Pedro Luiz Foggiato</span><span>DevSecOps in progress.</span></footer>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+    <script>
+      if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches && "IntersectionObserver" in window) {
+        var revealEls = document.querySelectorAll("[data-reveal]");
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              io.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.15, rootMargin: "0px 0px -60px 0px" });
+        revealEls.forEach(function (el) { io.observe(el); });
+      } else {
+        document.querySelectorAll("[data-reveal]").forEach(function (el) { el.classList.add("is-visible"); });
+      }
+    </script>
+  </body>
+</html>

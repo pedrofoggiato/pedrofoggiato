@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#08090d" />
+    <title>Uma linha errada no sudoers e virei root | Pedro Foggiato</title>
+    <meta name="description" content="Laboratório real mostrando como uma regra de sudo mal configurada (NOPASSWD) abre uma porta que ninguém percebe — sem roubar senha, sem malware, sem 0-day." />
+    <link rel="canonical" href="https://pedrofoggiato.com/blog/uma-linha-errada-no-sudoers/" />
+    <link rel="icon" href="../../assets/favicon.png?v=3" type="image/png" sizes="48x48" />
+    <link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png?v=3" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Pedro Foggiato" />
+    <meta property="og:title" content="Uma linha errada no sudoers e virei root" />
+    <meta property="og:description" content="Laboratório real mostrando como uma regra de sudo mal configurada (NOPASSWD) abre uma porta que ninguém percebe." />
+    <meta property="og:url" content="https://pedrofoggiato.com/blog/uma-linha-errada-no-sudoers/" />
+    <meta property="og:image" content="https://i.ytimg.com/vi/bPdpXPVz1OI/hqdefault.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Uma linha errada no sudoers e virei root" />
+    <meta name="twitter:image" content="https://i.ytimg.com/vi/bPdpXPVz1OI/hqdefault.jpg" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <meta name="author" content="Pedro Foggiato" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Uma linha errada no sudoers e virei root","datePublished":"2026-09-17","author":{"@type":"Person","name":"Pedro Foggiato","url":"https://pedrofoggiato.com/"},"publisher":{"@type":"Person","name":"Pedro Foggiato","url":"https://pedrofoggiato.com/"},"image":"https://i.ytimg.com/vi/bPdpXPVz1OI/hqdefault.jpg","mainEntityOfPage":"https://pedrofoggiato.com/blog/uma-linha-errada-no-sudoers/","description":"Laboratório real mostrando como uma regra de sudo mal configurada (NOPASSWD) abre uma porta que ninguém percebe."}</script>
+  </head>
+  <body>
+    <header class="nav"><div class="nav-inner"><a class="wordmark" href="/" aria-label="Pedro Foggiato"><img src="../../assets/mark-f.png" alt="Pedro Foggiato" class="mark" /></a><nav class="nav-links"><a href="/blog/" aria-current="page">Blog</a><a href="https://github.com/pedrofoggiato" target="_blank" rel="noopener noreferrer">GitHub</a></nav></div></header>
+    <main>
+      <div class="post-hero">
+        <p class="eyebrow">17 SET 2026 · LABORATÓRIO</p>
+        <h1>Uma linha errada no sudoers e virei root</h1>
+        <p class="post-date">Por Pedro Foggiato</p>
+      </div>
+      <article class="post-body">
+        <p>Talvez você já tenha escrito uma linha no sudoers que libera root pra qualquer usuário e talvez nem saiba.</p>
+        <p>Nesse tempo que estou no básico de cyber/DevSecOps, gravei um laboratório bem simples, mas real, mostrando exatamente isso: como uma regra de sudo mal configurada abre uma porta que ninguém percebe.</p>
+        <div class="lab-embed" style="max-width:100%;margin:36px 0"><iframe src="https://www.youtube.com/embed/bPdpXPVz1OI" title="Uma linha errada no sudoers e virei root" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        <p><strong>O usuário comum (ou não, rs).</strong> Começa simples: um usuário sem privilégio nenhum. Sem acesso administrativo, sem superpoder, só mais uma conta no sistema.</p>
+        <p><strong>A regra que parece inocente.</strong> Alguém configurou uma exceção no sudoers: esse usuário pode rodar um programa específico como root, sem digitar senha (<code>NOPASSWD</code>). Parece razoável — lobo na pele de cordeiro. "Só acessa esse programa."</p>
+        <p><strong>O momento em que vira root.</strong> Só que a pergunta certa nunca é "o que esse programa deveria fazer". É "o que esse programa consegue fazer" rodando como root. E a resposta, nesse laboratório, é bem mais do que qualquer um imaginaria.</p>
+        <p><strong>Por que isso importa.</strong> Permissão aparente não é capacidade real. Configuração que parece segura não é segurança de verdade. Least privilege só funciona quando alguém testa de verdade — não quando alguém assume que "está tranquilo" com base em intuição (ou energia espiritual).</p>
+        <p>No vídeo eu mostro o ciclo inteiro: a descoberta, a exploração, a correção via <code>visudo</code>, e o reteste confirmando que a porta fechou.</p>
+        <div class="original-link">
+          <p>Artigo completo, com mais detalhes técnicos, também publicado no Dev.to:</p>
+          <a class="button-ghost" href="https://dev.to/pedrofoggiato/uma-linha-errada-no-sudoers-e-virei-root-5cmc" target="_blank" rel="noopener noreferrer">Ler no Dev.to <span>↗</span></a>
+        </div>
+      </article>
+    </main>
+    <footer><span>© <span id="year"></span> Pedro Luiz Foggiato</span><span>DevSecOps in progress.</span></footer>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  </body>
+</html>
