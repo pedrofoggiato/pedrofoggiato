@@ -48,3 +48,11 @@ Não documento tudo, e seria irresponsabilidade minha dizer que documento, mas t
 <img src="https://img.shields.io/badge/Cloud-0D0D0D?style=for-the-badge&logo=icloud&logoColor=E5E5E5" alt="Cloud" />
 <img src="https://img.shields.io/badge/IAM-0D0D0D?style=for-the-badge&logo=auth0&logoColor=E5E5E5" alt="IAM" />
 </div>
+
+<img src="./assets/section-divider.svg" alt="" width="100%" />
+
+## `04 // labs`
+
+Coloquei o primeiro laboratório público em vídeo: uma linha mal configurada no `sudoers` e um usuário comum virando root. [Assista aqui](https://youtu.be/bPdpXPVz1OI).
+
+Os próximos labs vão ficando documentados em [pedrofoggiato/security-labs](https://github.com/pedrofoggiato/security-labs).
